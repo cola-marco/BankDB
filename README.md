@@ -6,9 +6,16 @@
 ### Accesso al Database da Terminale
 
 Dopo aver [creato](/src/CreateTables.sql) e [popolato](/src/AllDataDump.sql) il DataBase,
-- Aggiornare con la proprie credenziali la macro nel file .c per l'accesso a PostgreSQL
-- Scaricare la cartella Dependencies
-- Scaricare il file [codice.c](codice.c) nella stessa directory di Dependencies
+- Aggiornare con le proprie credenziali le macro nel file .c per l'accesso al DB PostgreSQL
+- Scaricare la cartella Dependencies, dopo aver installato la libreria [libpq](https://www.postgresql.org/docs/current/libpq.html):
+  
+  - ``sudo apt install libpq - dev``
+    
+  - nel caso si utilizzi Ubuntu installare anche libpq5:
+    
+  - ``sudo apt - get install libpq5``
+
+- Scaricare il file [codice.c](codice.c) e posizionarlo nella stessa directory di Dependencies
 - Da terminale posizionarsi nella Directory e compilare il codice con:
   
   ```c
