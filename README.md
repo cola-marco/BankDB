@@ -5,7 +5,7 @@
   
 ### Accesso al Database da Terminale
 
-Dopo aver [creato](CreateTables.sql) e [popolato](AllDataDump.sql) il DataBase,
+Dopo aver [creato](/src/CreateTables.sql) e [popolato](/src/AllDataDump.sql) il DataBase,
 - Aggiornare con la proprie credenziali la macro nel file .c per l'accesso a PostgreSQL
 - Scaricare la cartella Dependencies
 - Scaricare il file [codice.c](codice.c) nella stessa directory di Dependencies
